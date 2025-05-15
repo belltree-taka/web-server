@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <h1>トップページ</h1>
+    <img src="img/pika.webp" alt="">
+    <p>1+1は?</p>
+    <form action="/api/v1/quiz" method="post">
+        <input type="text" name="answer">
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>

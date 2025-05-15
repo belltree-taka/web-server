@@ -1,0 +1,21 @@
+{
+  "name": "web-server",
+  "engines": {
+    "node": "23.5.0",
+    "npm": "11.1.0"
+  },
+  "version": "1.0.0",
+  "description": "I use this folder to study node.js and express",
+  "license": "ISC",
+  "author": "Takaharu Suzuki",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}
